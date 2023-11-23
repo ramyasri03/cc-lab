@@ -1,0 +1,21 @@
+https://download.cnet.com/ubuntu-64-bit/3055-18513_4-75221946.html    or iso file
+
+
+yaml code:
+
+runtime: python2
+api-verson: 1
+threadsafe: false
+
+handlers:
+- url:/
+script:index.py
+
+google cloud run code or terminal:
+googlecloud-sdk\bin\dev_appserver.py "files folder path"
+
+file transfer code:
+cd /media
+sudo mkdr foldername
+ls
+sudo mount -t vboxsf windowsfolername ubuntuoldername 
